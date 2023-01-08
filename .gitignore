@@ -1,0 +1,6 @@
+.vs
+*.VC.db
+[Bb]in/
+[Oo]bj/
+/**/[Dd]ebug/
+/**/[Rr]elease/
