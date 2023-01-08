@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Editor">
+      <UniqueIdentifier>{9a91a174-4ae9-480f-ae49-73b70eb40002}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\Main.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Frame.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CFGParser.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Settings.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ListParser.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SelectItemDialog.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="source\VariantPanel.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="source\VariantSelectDialog.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RandomizeItemsDialog.cpp">
+      <Filter>Editor</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Frame.hpp">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CFGParser.hpp">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Settings.hpp">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vector.hpp">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Types.hpp">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="include\wx_includes.hpp">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ListParser.hpp">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SelectItemDialog.hpp">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="include\VariantPanel.hpp">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="include\VariantSelectDialog.hpp">
+      <Filter>Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RandomizeItemsDialog.hpp">
+      <Filter>Editor</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SettingsEditor.rc" />
+  </ItemGroup>
+</Project>
